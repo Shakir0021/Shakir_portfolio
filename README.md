@@ -4,7 +4,7 @@ Welcome to my **personal portfolio** website!
 Built with 💻 HTML + Tailwind CSS, this futuristic site features a terminal-style animated intro, project highlights, skills section, and resume download — perfect for internship, freelance, and social media bio link.
 
 ### 🔗 Live Demo  
-🌐 [View My Portfolio](https://shakir0021.github.io/shakir-portfolio/)
+🌐 [View My Portfolio](https://shakir0021.github.io/Shakir_portfolio/)
 
 ---
 
