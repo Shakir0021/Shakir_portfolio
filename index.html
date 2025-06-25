@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,6 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
   <style>
     body {
       font-family: 'Space Grotesk', sans-serif;
@@ -35,10 +35,8 @@
 </head>
 <body class="bg-gray-900 text-white">
 
-  <!-- Scroll to top -->
   <div id="scrollTop">⬆</div>
 
-  <!-- Hero Section -->
   <section class="min-h-screen flex flex-col justify-center items-center text-center px-4" data-aos="fade-down">
     <img src="profile.jpg" alt="Md Shakir Khan" class="w-32 h-32 rounded-full mb-4 border-4 border-green-400 shadow-lg" />
     <h1 class="text-4xl font-bold mb-2">Hi, I'm <span class="text-green-400">Md Shakir Khan</span></h1>
@@ -46,40 +44,15 @@
     <a href="#projects" class="mt-6 px-4 py-2 bg-green-500 text-black rounded-lg glow">View Projects</a>
   </section>
 
-  <!-- About Section -->
   <section class="p-10 bg-gray-800" data-aos="fade-up">
     <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-    <p class="text-gray-300 mb-4">
-      I'm a BCA student from Patna, passionate about backend development, AI, and building real-world applications with smart solutions.
-    </p>
+    <p class="text-gray-300 mb-4">I'm a BCA student from Patna, passionate about backend development, AI, and building real-world applications with smart solutions.</p>
   </section>
 
-  <!-- Skills Section -->
-  <section class="p-10" data-aos="zoom-in">
-    <h2 class="text-2xl font-semibold mb-4">Technical Skills</h2>
-    <div class="grid grid-cols-2 gap-4 text-gray-300">
-      <ul class="list-disc list-inside">
-        <li>Python, HTML, CSS, JS</li>
-        <li>Flask, Jinja2, OpenCV</li>
-        <li>Pandas, FPDF, face_recognition</li>
-      </ul>
-      <ul class="list-disc list-inside">
-        <li>MySQL, Chart.js</li>
-        <li>REST APIs, API Integration</li>
-        <li>GitHub, Render, Railway</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
   <section id="projects" class="p-10 bg-gray-800" data-aos="fade-up">
     <h2 class="text-2xl font-semibold mb-6">Projects</h2>
     <div class="grid md:grid-cols-2 gap-6">
 
-      <!-- Project Cards (as is) -->
-      <!-- All projects remain unchanged... -->
-
-      <!-- EXAMPLE -->
       <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
         <h3 class="text-xl font-bold">Luck vs Logic: Dual Duel</h3>
         <p class="text-gray-400 text-sm mb-3">Multiplayer PvP game with offline/online play, animations, and randomness logic.</p>
@@ -87,50 +60,110 @@
         <a href="#" class="text-blue-400 hover:underline">GitHub</a>
       </div>
 
-      <!-- Repeat for other projects as in your original file... -->
+      <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
+        <h3 class="text-xl font-bold">Hospital Management System</h3>
+        <p class="text-gray-400 text-sm mb-3">Flask + MySQL system with appointment booking, export to PDF/Excel, and admin dashboard.</p>
+        <a href="#" class="text-green-400 hover:underline mr-4">Live</a>
+        <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
+
+      <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
+        <h3 class="text-xl font-bold">AI Chatbot Web App</h3>
+        <p class="text-gray-400 text-sm mb-3">Flask app using OpenAI API, with secure .env key handling and modern chat interface.</p>
+        <a href="#" class="text-green-400 hover:underline mr-4">Live</a>
+        <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
+
+      <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
+        <h3 class="text-xl font-bold">JARVIS AI Assistant</h3>
+        <p class="text-gray-400 text-sm mb-3">Python-based voice assistant to control home appliances, respond to commands, and integrate memory.</p>
+        <a href="#" class="text-green-400 hover:underline mr-4">Live</a>
+        <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
+
+      <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
+        <h3 class="text-xl font-bold">FitBuddy AI</h3>
+        <p class="text-gray-400 text-sm mb-3">Fitness tracker using Flask + Mediapipe + Chart.js for rep counting and progress visualization.</p>
+        <a href="#" class="text-green-400 hover:underline mr-4">Live</a>
+        <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
+
+      <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
+        <h3 class="text-xl font-bold">Face Recognition Security</h3>
+        <p class="text-gray-400 text-sm mb-3">OpenCV + face_recognition based Python app for real-time detection, logging, and automation.</p>
+        <a href="#" class="text-green-400 hover:underline mr-4">Live</a>
+        <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
+
+      <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
+        <h3 class="text-xl font-bold">Zoro.AI (Anime Streaming Site)</h3>
+        <p class="text-gray-400 text-sm mb-3">Anime streaming web app with sub/dub toggle, episode search, and responsive UI.</p>
+        <a href="#" class="text-green-400 hover:underline mr-4">Live</a>
+        <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
+
+      <div class="bg-gray-700 p-5 rounded-lg shadow-md hover:shadow-lg glow">
+        <h3 class="text-xl font-bold">Indian Home Design Gallery</h3>
+        <p class="text-gray-400 text-sm mb-3">Responsive Flask app to showcase home exterior designs with image gallery and search.</p>
+        <a href="#" class="text-green-400 hover:underline mr-4">Live</a>
+        <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
 
     </div>
   </section>
 
-  <!-- Resume Section -->
   <section class="p-10 text-center" data-aos="fade-in">
     <h2 class="text-2xl font-semibold mb-4">Resume</h2>
     <a href="resume.pdf" download class="px-4 py-2 bg-green-500 text-black rounded glow">Download Resume</a>
-  </section>
+  
+</section>
 
-  <!-- Contact Form Section -->
-  <section class="p-10 bg-gray-800" data-aos="zoom-in-up">
-    <h2 class="text-2xl font-semibold mb-4 text-center">Contact Me</h2>
-    <div id="formContainer" class="max-w-xl mx-auto space-y-4">
-      <form id="contactForm" action="https://formspree.io/f/mpwryovn" method="POST" class="space-y-4">
-        <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 rounded text-black" required>
-        <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 rounded text-black" required>
-        <textarea name="message" placeholder="Your Message" class="w-full px-4 py-2 rounded text-black" rows="4" required></textarea>
-        <input type="hidden" name="_format" value="plain" />
-        <button type="submit" class="bg-green-500 px-6 py-2 text-black rounded glow">Send</button>
-      </form>
-
-      <!-- Success Message -->
-      <div id="successMessage" class="hidden bg-green-600 text-white px-4 py-3 rounded-lg text-center animate__animated animate__fadeIn">
-        ✅ Your message has been sent successfully!
-      </div>
+<section class="p-10 bg-gray-800" data-aos="zoom-in-up">
+  <h2 class="text-2xl font-semibold mb-4 text-center">Contact Me</h2>
+  <div id="formContainer" class="max-w-xl mx-auto space-y-4">
+    <form id="contactForm" action="https://formspree.io/f/mpwryovn" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 rounded text-black" required>
+      <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 rounded text-black" required>
+      <textarea name="message" placeholder="Your Message" class="w-full px-4 py-2 rounded text-black" rows="4" required></textarea>
+      <input type="hidden" name="_format" value="plain" />
+      <button type="submit" class="bg-green-500 px-6 py-2 text-black rounded glow">Send</button>
+    </form>
+    <div id="successMessage" class="hidden bg-green-600 text-white px-4 py-3 rounded-lg text-center animate__animated animate__fadeIn">
+      ✅ Your message has been sent successfully!
     </div>
+  </div>
+  <div class="mt-6 text-center text-gray-400">
+    <p>🔗 
+      <a href="https://github.com/Shakir0021" class="text-blue-400 hover:underline">GitHub</a> | 
+      <a href="https://linkedin.com/in/md-shakir-khan-9267b0316" class="text-blue-400 hover:underline">LinkedIn</a> | 
+      <a href="https://instagram.com/Shakir_pathan21" class="text-pink-400 hover:underline">Instagram</a>
+    </p>
+  </div>
+</section>
 
-    <div class="mt-6 text-center text-gray-400">
-      <p>🔗 
-        <a href="https://github.com/Shakir0021" class="text-blue-400 hover:underline">GitHub</a> | 
-        <a href="https://linkedin.com/in/md-shakir-khan-9267b0316" class="text-blue-400 hover:underline">LinkedIn</a> | 
-        <a href="https://instagram.com/Shakir_pathan21" class="text-pink-400 hover:underline">Instagram</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="text-center text-gray-500 py-4">
+  <script>
+    const form = document.getElementById("contactForm");
+    const successBox = document.getElementById("successMessage");
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (response.ok) {
+        form.classList.add("hidden");
+        successBox.classList.remove("hidden");
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
+    });
+  </script>
+<footer class="text-center text-gray-500 py-4">
     Code portions licensed under the MIT License. © 2025 Md Shakir Khan.
   </footer>
 
-  <!-- Scripts -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
@@ -141,29 +174,6 @@
     scrollBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   </script>
 
-  <script>
-    const form = document.getElementById("contactForm");
-    const successBox = document.getElementById("successMessage");
-
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const formData = new FormData(form);
-      const response = await fetch(form.action, {
-        method: form.method,
-        body: formData,
-        headers: { 'Accept': 'application/json' }
-      });
-
-      if (response.ok) {
-        form.classList.add("hidden");
-        successBox.classList.remove("hidden");
-      } else {
-        alert("Something went wrong. Please try again.");
-      }
-    });
-  </script>
-
-  <!-- ✅ Internet Disconnected Alert -->
   <script>
     window.addEventListener("offline", function () {
       alert("🔌 You're offline. Please check your internet connection.");
