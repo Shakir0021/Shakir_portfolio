@@ -1,7 +1,5 @@
 # 🚀 Md Shakir Khan - Developer Portfolio
 
-# Shakir Khan - Developer Portfolio
-
 Welcome to my official developer portfolio! This is a showcase of my personal and professional work, designed to demonstrate my technical skills, creativity, and passion for building impactful digital solutions.
 
 🔗 **Live Portfolio**: [shakir0021.github.io/Shakir_portfolio](https://shakir0021.github.io/Shakir_portfolio)
