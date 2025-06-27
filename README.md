@@ -1,7 +1,7 @@
 # 🚀 Md Shakir Khan - Futuristic Developer Portfolio
 
 Welcome to my **personal portfolio** website!  
-Built with 💻 HTML + Tailwind CSS, this futuristic site features a terminal-style animated intro, project highlights, skills section, and resume download — perfect for internship, freelance, and social media bio link.
+Built with 💻 HTML + Tailwind CSS, this futuristic site features a terminal-style animated intro, project highlights, skills section, and resume download.
 
 ### 🔗 Live Demo  
 🌐 [View My Portfolio](https://shakir0021.github.io/Shakir_portfolio/)
