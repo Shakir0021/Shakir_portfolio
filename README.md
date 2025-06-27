@@ -1,40 +1,60 @@
-# 🚀 Md Shakir Khan - Futuristic Developer Portfolio
+# 🚀 Md Shakir Khan - Developer Portfolio
 
-Welcome to my **personal portfolio** website!  
-Built with 💻 HTML + Tailwind CSS, this futuristic site features a terminal-style animated intro, project highlights, skills section, and resume download.
+# Shakir Khan - Developer Portfolio
 
-### 🔗 Live Demo  
-🌐 [View My Portfolio](https://shakir0021.github.io/Shakir_portfolio/)
+Welcome to my official developer portfolio! This is a showcase of my personal and professional work, designed to demonstrate my technical skills, creativity, and passion for building impactful digital solutions.
 
----
-
-## 📄 Features
-
-- ✅ Futuristic bootloader intro (terminal animation + glitch fade)
-- ✅ Fully responsive design
-- ✅ About Me & Skills section
-- ✅ Project cards (real working projects)
-- ✅ Resume PDF download
-- ✅ Contact + social links
+🔗 **Live Portfolio**: [shakir0021.github.io/Shakir_portfolio](https://shakir0021.github.io/Shakir_portfolio)
 
 ---
 
-## 🛠️ Built With
+## 📌 About Me
 
-- **HTML5**
-- **Tailwind CSS**
-- **JavaScript** (for animation)
-- **Hosted via GitHub Pages**
+I’m **Md Shakir Khan**, a passionate and self-driven developer currently pursuing a BCA from Maulana Mazharul Haque Arabic and Persian University, Patna. I specialize in full-stack development with Python (Flask), MySQL, frontend web technologies, and machine learning/AI-based applications. I enjoy building practical and real-world software solutions that solve meaningful problems.
 
 ---
 
+## 🧠 Technologies I Work With
+
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap, Tailwind
+- **Backend**: Python (Flask), FastAPI
+- **Database**: MySQL, SQLite
+- **AI/ML**: OpenCV, face_recognition, Mediapipe, PyTorch
+- **Tools**: Git, GitHub, Render, Railway, VS Code
+
+---
+
+## 🚀 Projects Included
+
+### 1. **Hospital Management System**
+A full-featured appointment and patient tracking system for clinics and maternity homes, with admin controls and export features.
+
+### 2. **FitBuddy AI Ultimate**
+Fitness tracker with pose detection, rep counter, and calorie monitoring, built using Mediapipe and Flask.
+
+### 3. **Face Recognition Security System**
+Industry-level camera-based security and attendance app using OpenCV and face_recognition libraries.
+
+### 4. **Luck vs Logic: Dual Duel**
+A real-time multiplayer PvP game with offline/online support, built using Flask and Socket.IO.
+
+### 5. **DeepChat: AI Chatbot**
+An intelligent chatbot built with PyTorch and Seq2Seq architecture with attention mechanism.
+
+_(And many more small and large-scale practical applications)_
+
+---
+
+## 📁 Repository Structure
 ## 📁 Folder Structure
 
-shakir-portfolio/
-├── index.html # Main portfolio file
-├── resume.pdf # My resume (downloadable)
-├── README.md # This file
-
+Shakir_portfolio/
+│
+├── index.html # Homepage of the portfolio
+├── projects.html # Detailed view of projects
+├── style.css # Custom styling
+├── assets/ # Images and media files
+└── scripts/ # Optional JS logic
 
 
 ---
@@ -51,7 +71,7 @@ shakir-portfolio/
 
 ## ⭐ Credits
 
-Coded and designed with 💙 by Md Shakir Khan  
+Coded and designed by Md Shakir Khan  
 This portfolio is part of my journey in becoming a strong backend developer & AI enthusiast.
 
 ---
